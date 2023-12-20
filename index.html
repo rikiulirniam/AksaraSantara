@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrowDev</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="background"></div>
+    <!-- <container> -->
+    <header class="main">
+      <div class="text-home-indo">
+        <nav class="navbar-default">
+          <h1>GrowDev</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <h1 class="t-kebudayaan">Kebudayaan</h1>
+        <h1 class="t-indonesia">Indonesia</h1>
+
+        <div class="sc-d">
+          <h3>Scroll down</h3>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!-- <div class=""></div> -->
+    </header>
+    <div class="mains">
+      <div class="hero-wrapper">
+        <div class="hero">
+          <img class="pura" src="/asset/bangunan-pura.png" alt="-" />
+          <div class="blender"></div>
+          <main class="daerah-wrapper" id="daerahWrapper">
+            <div class="wrapper" id="jateng">
+              <h1 class="title-text-daerah">JAWA TENGAH</h1>
+              <div class="button">
+                <button class="prev" onClick="kanan()">
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </button>
+                <button class="next" onClick="kiri()">
+                  <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="wrapperFrame">
+                <div class="frame" id="frame">
+                  <section class="section1">
+                    <img src="asset/indonesia/jateng.png" alt="" />
+                    <div class="transition"></div>
+                  </section>
+                  <div class="space"></div>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,224L17.1,197.3C34.3,171,69,117,103,133.3C137.1,149,171,235,206,245.3C240,256,274,192,309,170.7C342.9,149,377,171,411,165.3C445.7,160,480,128,514,128C548.6,128,583,160,617,170.7C651.4,181,686,171,720,149.3C754.3,128,789,96,823,96C857.1,96,891,128,926,165.3C960,203,994,245,1029,266.7C1062.9,288,1097,288,1131,277.3C1165.7,267,1200,245,1234,224C1268.6,203,1303,181,1337,186.7C1371.4,192,1406,224,1423,240L1440,256L1440,0L1422.9,0C1405.7,0,1371,0,1337,0C1302.9,0,1269,0,1234,0C1200,0,1166,0,1131,0C1097.1,0,1063,0,1029,0C994.3,0,960,0,926,0C891.4,0,857,0,823,0C788.6,0,754,0,720,0C685.7,0,651,0,617,0C582.9,0,549,0,514,0C480,0,446,0,411,0C377.1,0,343,0,309,0C274.3,0,240,0,206,0C171.4,0,137,0,103,0C68.6,0,34,0,17,0L0,0Z"></path></svg> -->
+                  <div class="detailDaerah">
+                    <div class="gradient-overlay4"></div>
+                    <section class="section2">
+                      <div class="space"></div>
+                      <div class="transitionDaerah"></div>
+                      <div class="mainContent">
+                        <img
+                          src="asset/indonesia/2307e2f9ab8955148d9cc0adc14f6f9b-removebg-preview 1.png"
+                          alt=""
+                          id="imgSection"
+                          class="imgPakaian"
+                        />
+                        <div class="gradient-overlay"></div>
+                        <div class="textContent">
+                          <p id="titleContent" class="titlePakaian">KEBAYA</p>
+                          <p id="desc" class="descPakaian">
+                            Kebaya adalah pakaian bagian atas yang memiliki
+                            karakteristik terbuka di bagian depan dan dibuat
+                            secara tradisional dari kain ringan seperti brokat,
+                            katun, kasa, renda, atau voile, dan terkadang
+                            dihiasi dengan sulaman.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="transition1"></div>
+                    </section>
+                    <div class="space">
+                      <!-- <img src" alt=""> -->
+                    </div>
+                    <!-- <div class="transitionDaerah"></div> -->
+                    <section class="section3">
+                      <div class="transitionDaerah"></div>
+                      <div class="mainContent">
+                        <div class="textContent2">
+                          <p class="titleTarian">TARI BONDAN</p>
+                          <p id="desc" class="descTarian">
+                            Tari Bondan ini berasal dari Surakarta,Jawa
+                            Tengah.Tarian ini menceritakan bahwa kasih sayang
+                            ibu kepada anaknya melalui menggendong bayi dengan
+                            payung terbuka dengan hati-hati dan perhatian.
+                          </p>
+                        </div>
+                        <img
+                          src="asset/indonesia/Tari Bondan (1).png"
+                          alt=""
+                          id="imgSection"
+                          class="imgTarian"
+                        />
+                        <div class="gradient-overlay"></div>
+                      </div>
+                      <div class="transition1"></div>
+                    </section>
+                    <!-- <div class="transition2"></div> -->
+                    <section class="section4">
+                      <div class="transitionDaerah"></div>
+                      <div class="mainContent">
+                        <img
+                          src="asset/JawaTengah/MakananDaerah/GarangAsem.png"
+                          alt=""
+                          id="imgSection"
+                          style="border-radius: 50%"
+                          class="imgMakanan"
+                        />
+                        <div class="textContent">
+                          <p id="titleContent" class="titleMakanan">
+                            GARANG ASEM
+                          </p>
+                          <p id="desc" class="descMakanan">
+                            Garang asem adalah makanan tradisional khas Jawa
+                            Tengah yang dibuat dari olahan ayam yang dimasak
+                            menggunakan daun pisang dan didominasi oleh rasa
+                            asam dan pedas. Garang asem berasal dari Grobogan
+                            namun kini garang asem populer di Kudus
+                          </p>
+                        </div>
+                      </div>
+                      <div class="transition1"></div>
+                    </section>
+                    <section class="section5">
+                      <div class="transitionDaerah"></div>
+                      <p class="title">BOROBUDUR</p>
+                      <div class="transition1"></div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+              <div class="parent-text-daerah">
+                <p class="text-daerah">
+                  Jawa Tengah adalah sebuah wilayah provinsi di Indonesia yang
+                  terletak di bagian tengah Pulau Jawa. Ibu kota dari Provinsi
+                  Jawa Tengah adalah Kota Semarang. Provinsi ini berbatasan
+                  dengan Provinsi Jawa Barat di sebelah barat, Samudra Hindia.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="footer">
+              <h1>Ini adalah footer</h1>
+            </div> -->
+
+            <div class="daerah" id="daerah1">
+              <!-- <button class="prev" onClick="kanan()">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </button>
+              <button class="next" onClick="kiri()">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </button> -->
+              <div class="img-daerah">
+                <img src="/asset/indonesia/jateng.png" alt="" />
+                <!-- <div class="detail-daerah">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt, reiciendis.
+                  </p>
+                </div> -->
+              </div>
+              <div class="parent-text-daerah">
+                <p class="text-daerah">
+                  Jawa Tengah adalah sebuah wilayah provinsi di Indonesia yang
+                  terletak di bagian tengah Pulau Jawa. Ibu kota dari Provinsi
+                  Jawa Tengah adalah Kota Semarang.
+                </p>
+              </div>
+            </div>
+            <div class="daerah" id="daerah2">
+              <button class="prev" onClick="kanan()">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </button>
+              <button class="next" onClick="kiri()">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <h1 class="title-text-daerah">D.I.YOGYAKARTA</h1>
+              <div class="img-daerah">
+                <img src="/asset/indonesia/diy.png" alt="" />
+              </div>
+              <div class="parent-text-daerah">
+                <p class="text-daerah">
+                  Jawa Tengah adalah sebuah wilayah provinsi di Indonesia yang
+                  terletak di bagian tengah Pulau Jawa. Ibu kota dari Provinsi
+                  Jawa Tengah adalah Kota Semarang.
+                </p>
+              </div>
+            </div>
+            <div class="daerah" id="daerah3">
+              <button class="prev" onClick="kanan()">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </button>
+              <button class="next" onClick="kiri()">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <h1 class="title-text-daerah">DKI JAKARTA</h1>
+              <div class="img-daerah">
+                <img src="/asset/indonesia/jakarta.png" alt="" />
+              </div>
+              <div class="parent-text-daerah">
+                <p class="text-daerah">
+                  Jawa Tengah adalah sebuah wilayah provinsi di Indonesia yang
+                  terletak di bagian tengah Pulau Jawa. Ibu kota dari Provinsi
+                  Jawa Tengah adalah Kota Semarang.
+                </p>
+              </div>
+            </div>
+            <div class="daerah" id="daerah4">
+              <button class="prev" onClick="kanan()">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </button>
+              <button class="next" onClick="kiri()">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <h1 class="title-text-daerah">SULAWESI</h1>
+              <div class="img-daerah">
+                <img src="/asset/indonesia/sulawesi.png" alt="" />
+              </div>
+              <div class="parent-text-daerah">
+                <p class="text-daerah">
+                  Jawa Tengah adalah sebuah wilayah provinsi di Indonesia yang
+                  terletak di bagian tengah Pulau Jawa. Ibu kota dari Provinsi
+                  Jawa Tengah adalah Kota Semarang.
+                </p>
+              </div>
+            </div>
+            <div class="daerah" id="daerah5">
+              <button class="prev" onClick="kanan()">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </button>
+              <button class="next" onClick="kiri()">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <h1 class="title-text-daerah">BALI</h1>
+              <div class="img-daerah">
+                <img src="/asset/indonesia/bali.png" alt="" />
+              </div>
+              <div class="parent-text-daerah">
+                <p class="text-daerah">
+                  Jawa Tengah adalah sebuah wilayah provinsi di Indonesia yang
+                  terletak di bagian tengah Pulau Jawa. Ibu kota dari Provinsi
+                  Jawa Tengah adalah Kota Semarang.
+                </p>
+              </div>
+            </div>
+            <div class="daerah" id="daerah6">
+              <button class="prev" onClick="kanan()">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </button>
+              <button class="next" onClick="kiri()">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <h1 class="title-text-daerah">PAPUA</h1>
+              <div class="img-daerah">
+                <img src="/asset/indonesia/papua.png" alt="" />
+              </div>
+              <div class="parent-text-daerah">
+                <p class="text-daerah">
+                  Jawa Tengah adalah sebuah wilayah provinsi di Indonesia yang
+                  terletak di bagian tengah Pulau Jawa. Ibu kota dari Provinsi
+                  Jawa Tengah adalah Kota Semarang.
+                </p>
+              </div>
+            </div>
+            <div class="daerah" id="daerah7">
+              <button class="prev" onClick="kanan()">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </button>
+              <button class="next" onClick="kiri()">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <h1 class="title-text-daerah">SUMATERA</h1>
+              <div class="img-daerah">
+                <img src="/asset/indonesia/sumatera.png" alt="" />
+              </div>
+              <div class="parent-text-daerah">
+                <p class="text-daerah">
+                  Jawa Tengah adalah sebuah wilayah provinsi di Indonesia yang
+                  terletak di bagian tengah Pulau Jawa. Ibu kota dari Provinsi
+                  Jawa Tengah adalah Kota Semarang.
+                </p>
+              </div>
+            </div>
+            <div class="daerah" id="daerah8">
+              <button class="prev" onClick="kanan()">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </button>
+              <button class="next" onClick="kiri()">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <h1 class="title-text-daerah">KALIMANTAN</h1>
+              <div class="img-daerah">
+                <img src="/asset/indonesia/kalimantan.png" alt="" />
+              </div>
+              <div class="parent-text-daerah">
+                <p class="text-daerah">
+                  Jawa Tengah adalah sebuah wilayah provinsi di Indonesia yang
+                  terletak di bagian tengah Pulau Jawa. Ibu kota dari Provinsi
+                  Jawa Tengah adalah Kota Semarang.
+                </p>
+              </div>
+            </div>
+            <!-- <div
+              class="detail-daerah"
+              style="
+                z-index: 10;
+                position: absolute;
+                color: brown;
+                height: 100vh;
+                bottom: 0;
+                font-size: 35px;
+              "
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque,
+              illo.
+            </div> -->
+          </main>
+          <!-- <section>
+            <p>tes</p>
+          </section> -->
+          <div class="transitionDaerah"></div>
+          <footer class="footer">
+            <div class="wrapperMainFooter">
+              <div class="mainfooter">
+                <div class="Comment">
+                  <h1>Kirim Pesan</h1>
+                  <form action="">
+                    <p>Nama:</p>
+                    <input name="nama" type="text" placeholder="Masukkan nama anda..."/>
+                    <p>Pesan untuk kami:</p>
+                    <textarea name="msg" type="text" placeholder="Kirimkan pesan kepada kami..."/></textarea>
+                    <button class="btnKirim" type="submit">KIRIM</button>
+                  </form>
+                </div>
+
+                <div class="contactUs">
+                  <div class="contact-list">
+                    <h1>Hubungi Kami</h1>
+                    <ul class="hubKami">
+                        <li>Jln. Raya Pati Trangkil KM.4, Kinyan, Ngepungrojo, Kec. Pati, Kabupaten Pati, Jawa Tengah 59119</li>
+                        <li>aksarasantara@gmail.com</li>
+                        <li>(+62) 895-1068-8091</li>
+                    </ul>
+                  </div>
+                  <hr>
+                  <div class="sosmed-list">
+                  <h1>Sosial Media</h1>
+                  <div class="sosmed">
+                    <div class="btnSosmed">
+                      <a href=""
+                        ><img src="./asset/Logo/facebook.png" alt="" srcset=""><p>Facebook</p></a>
+                      
+                    </div>
+                    <div class="btnSosmed">
+                      <a href=""
+                        ><img src="./asset/Logo/instagram.png" alt="" srcset=""><p>Instagram</p></a>
+                      
+                    </div>
+                    <div class="btnSosmed">
+                      <a href=""
+                        ><img src="./asset/Logo/youtube.png" alt="" srcset=""><p>Youtube</p></a>
+                      
+                    </div>
+                    <div class="btnSosmed">
+                      <a href=""
+                        ><img src="./asset/Logo/twitter.png" alt="" srcset=""><p>Twitter / X</p></a>
+                      
+                    </div>
+                    <div class="btnSosmed">
+                      <a href=""
+                        ><img src="./asset/Logo/tiktok.png" alt="" srcset=""><p>Tiktok</p></a>
+                      
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-footer">
+              <div class="aksaraSantara">
+                <img
+                  src="asset/Logo/AksaraSantara.png"
+                  alt=""
+                  class="logoAksara"
+                />
+                <p>Copyright&copy;2023 - GrowDev</p>
+              </div>
+              <img src="asset/Logo/imgFooter.png" alt="" />
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!-- </container> -->
+    <script src="main.js"></script>
+  </body>
+</html>
